@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM default-route-openshift-image-registry.apps.dev.mibocp.co.id/openshift/python:latest
 
 WORKDIR /app
 ENV PYTHONPATH /app
